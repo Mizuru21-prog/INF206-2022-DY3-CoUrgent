@@ -14,9 +14,8 @@
 `git clone https://github.com/Mizuru21-prog/INF206-2022-DY3-CoUrgent.git`
 2. Masuk kedalam folder.<br>
 `cd INF206-2022-DY3-CoUrgent`
-3. Copy file .env.example dan ubah menjadi nama menjadi .env.
-4. Generate key untuk php artisan.<br>
-`php artisan key:generate`
+3. Install Composer. <br>
+`composer install`
 
 
 ## Pengembang
