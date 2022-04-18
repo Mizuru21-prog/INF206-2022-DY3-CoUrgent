@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/Struk', function () {
+    return view('Struk',[
+        "title" => "Struk"
+    ]);
 });
+Route::get('/Produk', function () {
+    return view('Produk', [
+        "title" =>'Produk'
+    ]);
+});
+
+
