@@ -23,5 +23,9 @@ Route::get('/Produk', function () {
         "title" =>'Produk'
     ]);
 });
-
+Route::get('/', function () {
+    return view('home',[
+        "title" => "home"
+    ]);
+});
 
