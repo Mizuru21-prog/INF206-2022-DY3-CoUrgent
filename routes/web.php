@@ -15,11 +15,25 @@ use App\Http\Controllers\Auth\AuthController;
 |
 */
 
+
+Route::get('/Struk', function () {
+    return view('Struk',[
+        "title" => "Struk"
+    ]);
 Route::get('/', function () {
     return view('adminreg');
+});
+
+Route::get('/Produk', function () {
+    return view('Produk', [
+        "title" =>'Produk'
+    ]);
+});
+Route::get('/home', function () {
+    return view('home',[
+        "title" => "home"
+    ]);
 });
 Route::get('/adminlog', function() {
     return view('adminlog');
 });
-
-
