@@ -1,0 +1,35 @@
+.cont{
+	display: flex;
+}
+
+.text{
+	
+	width: 494px;
+	height: 88px;
+	left: 700px;
+	top: 20px;
+}
+p{
+	font-family: 'Roboto';
+	margin: 2em;
+	background: #CCD1E4;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+p span{
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;	
+	font-size: 20px;
+}
+
+body{
+	background-color: #F8FFFF;
+}
+
+form{
+	padding: 20px;
+}

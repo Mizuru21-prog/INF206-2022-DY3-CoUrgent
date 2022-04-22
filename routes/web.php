@@ -16,7 +16,10 @@ use App\Http\Controllers\Auth\AuthController;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('adminreg');
+});
+Route::get('/adminlog', function() {
+    return view('adminlog');
 });
 
 
