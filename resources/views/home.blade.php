@@ -13,7 +13,7 @@
                   <div class="card-body">
                       <button type="submit" class="btn btn-warning my-3"name="add">Obrolan</button>
                   </div>
-              </div>            
+              </div>
           </form>
       </div>
       <div class="col-md-3 col-sm-6 my-3 my-md-0">
@@ -25,16 +25,10 @@
                   <div class="card-body">
                       <button type="submit" class="btn btn-warning my-3"name="add">Pesanan</button>
                   </div>
-              </div>            
+              </div>
           </form>
       </div>
     </div>
 </div>
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> main
     @endsection

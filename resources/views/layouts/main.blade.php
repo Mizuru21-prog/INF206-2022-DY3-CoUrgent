@@ -6,18 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CoUrgent | {{ $title }}</title>
     <link rel="stylesheet" href="CSS/style.css">
-<<<<<<< HEAD
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-=======
-    <!-- font awesome--> 
+    <!-- font awesome-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  
-    <!-- bootstrap cdn--> 
+
+    <!-- bootstrap cdn-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
->>>>>>> main
+
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -28,7 +26,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="/Home">Home</a></li>
-                    <li><a href="/Produk">Produk</a></li> 
+                    <li><a href="/Produk">Produk</a></li>
                     <li><a href="/Struk">Struk</a></li>
                     <li><a href="/Help">Help</a></li>
                     <li><a href="" class="tbl-hijau">Log out</a></li>

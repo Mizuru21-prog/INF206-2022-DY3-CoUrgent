@@ -23,7 +23,7 @@ Route::get('/Produk', function () {
         "title" =>'Produk'
     ]);
 });
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('home',[
         "title" => "home"
     ]);
