@@ -8,7 +8,6 @@
               <div class="card shadow">
                   <div>
                       <img src="./img/chat.png" alt="Image1" class="img-fluid card-img-top">
-                      <h1>ini adanya</h1>
                   </div>
                   <div class="card-body">
                       <button type="submit" class="btn btn-warning my-3"name="add">Obrolan</button>
