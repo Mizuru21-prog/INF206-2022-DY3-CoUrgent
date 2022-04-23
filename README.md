@@ -1,9 +1,30 @@
-<h1 align="center">CoUrgent K3 TEAM</h1>
-<h3 align="center">Kelompok DY3 RPL</h3>
-<h3 align="left">Connect with Us:</h3>
-Anas Naufal Al-kiram -2008107010065<br>
-Dita Anatasya -2008107010060<br>
-Sima Maulina -2008107010070<br>
-Naufal Alkhalis -2008107010021<br>
-<p align="left">
-</p>
+## INF206-2022-DY3-CoUrgent
+
+***CoUrgent*** adalah aplikasi berbasis web yang menyediakan layanan untuk membantu masyarakat di tengah masa pandemi. Web ini akan menolong masyarakat dalam menghindari antrian ketika ingin mendapatkan alat kesehatan dan juga obat-obatan pada apotek disekitar tempat inggal mereka.
+
+## Preinstalled
+<ul>
+    <li>install xampp (windows), apache server bersamaan database (linux) </li>
+    <li>install laravel, bisa dengan <a href="https://getcomposer.org/">composer</a></li>
+</ul>
+
+## Cara berkontribusi
+
+1. Clone Repository bisa ke folder htdocs (windows).<br>
+`git clone https://github.com/Mizuru21-prog/INF206-2022-DY3-CoUrgent.git`
+2. Masuk kedalam folder.<br>
+`cd INF206-2022-DY3-CoUrgent`
+3. Install Composer. <br>
+`composer install`
+
+
+## Pengembang
+  
+  | Name        | NPM           |
+| ------------- |:-------------:|
+| <em> Anas Naufal Al-kiram </em>       | 2008107010065 |
+| <em> Dita Anatasya </em> | 2008107010060       |
+| <em> Naufal Alkhalis </em>      | 2008107010021      |
+| <em> Sima Maulina </em>   |  2008107010070       |
+<hr>
+
