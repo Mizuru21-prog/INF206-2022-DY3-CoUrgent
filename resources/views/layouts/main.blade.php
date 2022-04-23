@@ -25,7 +25,7 @@
             <div class="logo"><a href="">CoUrgent</a></div>
             <div class="menu">
                 <ul>
-                    <li><a href="/Home">Home</a></li>
+                    <li><a href="/home">Home</a></li>
                     <li><a href="/Produk">Produk</a></li>
                     <li><a href="/Struk">Struk</a></li>
                     <li><a href="/Help">Help</a></li>

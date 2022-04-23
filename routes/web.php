@@ -20,8 +20,10 @@ Route::get('/Struk', function () {
     return view('Struk',[
         "title" => "Struk"
     ]);
+});
+
 Route::get('/', function () {
-    return view('adminreg');
+    return view('landing');
 });
 
 Route::get('/Produk', function () {
@@ -31,9 +33,13 @@ Route::get('/Produk', function () {
 });
 Route::get('/home', function () {
     return view('home',[
-        "title" => "home"
+        "title" => 'home'
     ]);
 });
 Route::get('/adminlog', function() {
     return view('adminlog');
+});
+
+Route::get('/adminreg', function() {
+    return view('adminreg');
 });
