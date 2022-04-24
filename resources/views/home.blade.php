@@ -1,6 +1,6 @@
 @extends('layouts.main')
     @section('container')
-
+<h4>Selamat Datang <b>{{Auth::user()->name}}</b></h4>
 <div class="container">
     <div class="row text-center py-5">
       <div class="col-md-3 col-sm-6 my-3 my-md-0">

@@ -10,7 +10,7 @@
                 <form action="produk.php" method="POST">
                     <div class="card shadow">
                         <div>
-                            <img src="img/mask.png" alt="image1" class="img-fluid-card-img-top">
+                            <img src="img/masker.jpg" alt="image1" class="img-fluid-card-img-top">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Masker</h5>

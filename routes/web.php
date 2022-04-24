@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\Auth\AuthController;
-
+use App\Http\Controllers\auth_admin\auth_log;
+use App\Http\Controllers\main_activity;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,31 +15,18 @@ use App\Http\Controllers\Auth\AuthController;
 |
 */
 
+Route::get('adminlog', [auth_log::class, 'showLogin'])->name('adminlog');
+Route::post('actionLogin', [auth_log::class, 'actionLogin'])->name('actionLogin');
 
-Route::get('/Struk', function () {
-    return view('Struk',[
-        "title" => "Struk"
-    ]);
-});
 
-Route::get('/', function () {
-    return view('landing');
-});
+Route::get('adminreg', [auth_log::class, 'showRegister'])->name('adminreg');
+Route::post('actionRegister', [auth_log::class, 'actionRegister'])->name('actionRegister');
 
-Route::get('/Produk', function () {
-    return view('Produk', [
-        "title" =>'Produk'
-    ]);
-});
-Route::get('/home', function () {
-    return view('home',[
-        "title" => 'home'
-    ]);
-});
-Route::get('/adminlog', function() {
-    return view('adminlog');
-});
+Route::get('Struk', [main_activity::class, 'strukView']);
+Route::get('Produk', [main_activity::class, 'productView']);
 
-Route::get('/adminreg', function() {
-    return view('adminreg');
-});
+Route::get('home', [main_activity::class, 'homeView'])->name('home')->middleware('auth');
+Route::post('actionlogout', [auth_log::class, 'actionlogout'])->name('actionlogout')->middleware('auth');
+
+Route::get('/', [main_activity::class, 'landing'])->name('landing');
+

@@ -14,7 +14,7 @@
 <body>
     <section class="cont">
         <div class="pict-left">
-            <img src="assets/Register&LogPict.png" alt="loading" width="91%">
+            <img src="img/Register&LogPict.png" alt="loading" width="91%">
         </div>
         @yield('container')
     </section>

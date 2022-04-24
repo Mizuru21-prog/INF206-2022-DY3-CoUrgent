@@ -29,7 +29,7 @@
                     <li><a href="/Produk">Produk</a></li>
                     <li><a href="/Struk">Struk</a></li>
                     <li><a href="/Help">Help</a></li>
-                    <li><a href="" class="tbl-hijau">Log out</a></li>
+                    <li><a href="{{route('actionlogout')}}" class="tbl-hijau">Log out</a></li>
                 </ul>
             </div>
         </div>

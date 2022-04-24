@@ -15,7 +15,7 @@
 
     <nav class="navbar navbar-light navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{route('landing')}}">
           <img src="img/CoUrgentLogo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
           <span style="color: white;">CoUrgent</span>
         </a>
@@ -29,14 +29,14 @@
           <a class="nav-link" href="#"><span style="color: white;">AboutUs</span></a>
         </li>
         <li class="nav-item">
-          <button class="btn btn-success me-5">SignUp</button>
+          <a href="{{route('adminreg')}}" ><button class="btn btn-success me-5" >SignUp</button></a>
         </li>
       </ul>
       </div>
     </nav>
-   
-      <button class="left-bot btn btn-success">Sign In </button>
-    
+      <a href="{{route('adminlog')}}">
+        <button class="left-bot btn btn-success">Sign In </button>
+      </a>
     <section>
       <img class="bingkai" src="img/ladingDesktop.png">
 
