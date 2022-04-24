@@ -80,7 +80,7 @@ if (isset($_POST['remove'])){
                             }
                         }
                     }else{
-                        echo "<h5>Cart is Empty</h5>";
+                        echo "<h5>Keranjang Kosong</h5>";
                     }
 
                 ?>
