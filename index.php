@@ -21,14 +21,14 @@
 		<div class="nav-menu-right">
 			<a href="#" >Covid19</a>
 			<a href="#" >Tentang Kami</a>
-			<button class="button">Sign Up</button>
+			<a href="login-signup/pages/daftar.php"><button class="button" >Sign Up</button></a>
 		</div>
 	</nav>
 
 	<section class="hero-container">
 		<div>
 			<h1>Silahkan daftar sebagai:</h1>
-			<button>Staff</button>
+			<a href="adminAuth/pages/adminreg.php"><button>Staff</button></a>
 		</div>
 		<img src="img/3568984.jpg" alt="gambar">
 	</section>
