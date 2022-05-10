@@ -13,7 +13,7 @@ if (isset($_POST['remove'])){
       foreach ($_SESSION['cart'] as $key => $value){
           if($value["product_id"] == $_GET['id']){
               unset($_SESSION['cart'][$key]);
-              echo "<script>alert('Product has been Removed...!')</script>";
+              echo "<script>alert('Produk telah di hapus')</script>";
               echo "<script>window.location = 'Keranjang.php'</script>";
           }
       }
@@ -61,7 +61,7 @@ if (isset($_POST['remove'])){
     <div class="row px-5">
         <div class="col-md-7">
             <div class="shopping-cart">
-                <h5 class="titlekerj">Keranjang saya</h5>
+                <h5 class="titlekerj">Keranjang Saya</h5>
                 <hr>
 
                 <?php
@@ -80,7 +80,7 @@ if (isset($_POST['remove'])){
                             }
                         }
                     }else{
-                        echo "<h5>Cart is Empty</h5>";
+                        echo "<h5>Keranjang Kosong</h5>";
                     }
 
                 ?>
@@ -90,7 +90,7 @@ if (isset($_POST['remove'])){
         <div class="col-md-4 offset-md-1 border rounded mt-5 bg-white h-25">
 
             <div class="pt-4">
-                <h6>PRICE DETAILS</h6>
+                <h6>Detail Harga</h6>
                 <hr>
                 <div class="row price-details">
                     <div class="col-md-6">
@@ -102,13 +102,13 @@ if (isset($_POST['remove'])){
                                 echo "<h6>Price (0 items)</h6>";
                             }
                         ?>
-                        <h6>Delivery Charges</h6>
+                        <h6>Biaya Ongkir</h6>
                         <hr>
-                        <h6>Amount Payable</h6>
+                        <h6>Total Pembayaran</h6>
                     </div>
                     <div class="col-md-6">
                         <h6>$<?php echo $total; ?></h6>
-                        <h6 class="text-success">FREE</h6>
+                        <h6 class="text-success">Gratis</h6>
                         <hr>
                         <h6>$<?php
                             echo $total;
@@ -148,7 +148,7 @@ if (isset($_POST['remove'])){
 
     <div id="copyright">
         <div class="wrapper">
-            &copy; 2022. <b>CoUrgents</b> All Right Reserve
+            &copy; 2022. <b>CoUrgent</b> All Right Reserve
         </div>
     </div>
 
