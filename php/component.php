@@ -22,8 +22,8 @@ function component($productname, $productprice, $productimg, $productid){
                                 Keterangan Produk yang ingin di jual
                             </p>
                             <h5>
-                                <small><s class=\"text-secondary\">$519</s></small>
-                                <span class=\"price\">$$productprice</span>
+                                <small><s class=\"text-secondary\">Rp519</s></small>
+                                <span class=\"price\">Rp$productprice</span>
                             </h5>
 
                             <button type=\"submit\" class=\"btn btn-warning my-3\" name=\"add\">+ Keranjang <i class=\"fas fa-shopping-cart\"></i></button>
@@ -47,10 +47,10 @@ function cartElement($productimg, $productname, $productprice, $productid){
                             </div>
                             <div class=\"col-md-6\">
                                 <h5 class=\"pt-2\">$productname</h5>
-                                <small class=\"text-secondary\">Seller: CoUrgent</small>
+                                <small class=\"text-secondary\">Penjual: CoUrgent</small>
                                 <h5 class=\"pt-2\">$$productprice</h5>
-                                <button type=\"submit\" class=\"btn btn-warning\">Save for Later</button>
-                                <button type=\"submit\" class=\"btn btn-danger mx-2\" name=\"remove\">Remove</button>
+                                <button type=\"submit\" class=\"btn btn-warning\">Simpan untuk nanti</button>
+                                <button type=\"submit\" class=\"btn btn-danger mx-2\" name=\"remove\">Hapus</button>
                             </div>
                         </div>
                     </div>
