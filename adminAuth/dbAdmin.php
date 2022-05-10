@@ -3,13 +3,13 @@
 $servername = "localhost";
 
 /* nama database kita */
-$database = "INF206K3"; 
+$database = "productdb"; 
 
 /* nama user yang terdaftar pada database (default: root) */
-$username = "courgent";
+$username = "root";
 
 /* password yang terdaftar pada database (default : "") */ 
-$password = "Informatika2022!"; 
+$password = ""; 
 
 /* membuat koneksi */
 $conn = mysqli_connect($servername, $username, $password, $database);

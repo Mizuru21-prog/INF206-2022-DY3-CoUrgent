@@ -16,7 +16,7 @@ if (isset($_POST['add'])){
         $item_array_id = array_column($_SESSION['cart'], "product_id");
 
         if(in_array($_POST['product_id'], $item_array_id)){
-            echo "<script>alert('Product is already added in the cart..!')</script>";
+            echo "<script>alert('Produk Sudah Ada')</script>";
             echo "<script>window.location = 'Produk.php'</script>";
         }else{
 
