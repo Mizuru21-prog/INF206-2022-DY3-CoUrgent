@@ -1,46 +1,41 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Selamat Datang!</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/landing.css">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/landing.css">
+</head>
+<body>
+	
+	<nav class="navbar">
+		<div class="nav-menu-left">
+			<img class="logo" src="img/CoUrgentLogo.png" alt="CoUrgent">
+			<h1>CoUrgent</h1>
+		</div>
+		<div class="nav-menu-right">
+			<a href="#" >Covid19</a>
+			<a href="#" >Tentang Kami</a>
+			<a href="login-signup/pages/daftar.php"><button class="button" >Sign Up</button></a>
+		</div>
+	</nav>
 
-    <title>This is CoUrgent!</title>
-  </head>
-  <body>
+	<section class="hero-container">
+		<div>
+			<h1>Silahkan daftar sebagai:</h1>
+			<a href="adminAuth/pages/adminreg.php"><button>Staff</button></a>
+		</div>
+		<img src="img/3568984.jpg" alt="gambar">
+	</section>
 
-    <nav class="navbar navbar-light navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/CoUrgentLogo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
-          <span style="color: white;">CoUrgent</span>
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><span style="color: white;">Covid19</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><span style="color: white;">AboutUs</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="login-signup/pages/daftar.php" ><button class="btn btn-success me-5" >SignUp</button></a>
-        </li>
-      </ul>
-      </div>
-    </nav>
-      <a href="adminAuth/pages/adminreg.php">
-        <button class="left-bot btn btn-success">Staff</button>
-      </a>
-    <section>
-      <img class="bingkai" src="img/ladingDesktop.png">
+	<footer>
+		<h3>CoUrgent</h3>
+	</footer>
 
-    </section>
-
-  </body>
+</body>
 </html>
