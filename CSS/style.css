@@ -1,12 +1,3 @@
-.up{
-    padding-top: 20%;
-}
-h1{
-
-    text-align: center;
-    color: #0dccc6;
-    font-weight: bold;
-
 * {
     text-decoration: none;
     margin: 0px;
@@ -29,7 +20,6 @@ body {
     font-size: 30px;
     font-weight: bold;
     float: left;
-    font-family: Courier;
     color: #09aea6;
 
 
@@ -72,9 +62,7 @@ padding: 0px 16px 0px 16px;
 text-decoration: none;
 }
 
-nav ul li a:hover {
-text-decoration: underline;
-}
+
 
 a.tbl-hijau{
     background-color:  #0dccc6;
@@ -152,4 +140,12 @@ h3{
 .nav menu ul li{
     display: inline-block;
     float: none;
+}
+
+.mx-auto {
+    width: 800px
+}
+
+.card {
+    margin-top: 10px;
 }
