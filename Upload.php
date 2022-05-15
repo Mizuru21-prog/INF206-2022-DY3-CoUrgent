@@ -69,7 +69,7 @@
                 </div>
                 <div class="footer-section">
                     <h3>About</h3>
-                    <p>Dibangun untuk memenuhi matakuliah Rekaya Perangkat lunak</p>
+                    <p>Dibangun untuk memenuhi tugas matakuliah Rekaya Perangkat lunak</p>
                 </div>
                 <div class="footer-section">
                     <h3>Contact</h3>
