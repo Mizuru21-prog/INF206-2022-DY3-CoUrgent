@@ -63,10 +63,9 @@ if (isset($_POST['add'])){
             <div class="menu">
                 <ul>
                     <li><a href="Home.php">Home</a></li>
-                    <li><a href="Produk.php">Produk</a></li>
-                    <li><a href="Upload.php">Upload</a></li> 
+                    <li><a href="Produk.php">Produk</a></li> 
                     <li><a href="Keranjang.php">Keranjang</a></li>
-                    <li><a href="" class="tbl-hijau">Log out</a></li>
+                    <li><a href="index.php" class="tbl-hijau">Log out</a></li>
                                     
                 </ul>
             </div>

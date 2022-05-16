@@ -36,6 +36,7 @@
     </nav>
       <a href="adminAuth/pages/adminreg.php">
         <button class="left-bot btn btn-success">Staff</button>
+        <button class="left-bot btn btn-success">Pembeli</button>
       </a>
     <section>
       <img class="bingkai" src="img/ladingDesktop.png">

@@ -28,8 +28,7 @@
                     <li><a href="Home.php">Home</a></li>
                     <li><a href="Produk.php">Produk</a></li>
                     <li><a href="Upload.php">Upload</a></li>
-                    <li><a href="Keranjang.php">Keranjang</a></li>
-                    <li><a href="" class="tbl-hijau">Log out</a></li>
+                    <li><a href="index.php" class="tbl-hijau">Log out</a></li>
 
                 </ul>
             </div>
@@ -45,9 +44,15 @@
             <div class="card-body">
                 <form action="" method="POST">
                     <div class="mb-3 row">
-                        <label for="Nama" class="col-sm-2 col-form-label">Nama</label>
+                        <label for="produk" class="col-sm-2 col-form-label">Nama Produk</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="Nama" name="Nama" value="<?php echo $nim ?>">
+                            <input type="text" class="form-control" id="produk" name="produk" value="<?php echo $nim ?>">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="apotek" class="col-sm-2 col-form-label">Nama Apotek</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="apotek" name="apotek" value="<?php echo $nim ?>">
                         </div>
                     </div>
                     <div class="mb-3 row">
@@ -59,19 +64,43 @@
                     <div class="mb-3 row">
                         <label for="Harga" class="col-sm-2 col-form-label">Harga</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="Harga" name="Harga" value="<?php echo $alamat ?>">
+                            <input type="text" class="form-control" id="Harga" name="Harga" value="<?php echo $harga ?>">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="alamat" name="alamat" value="<?php echo $alamat ?>">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="pukul" class="col-sm-2 col-form-label">Pukul</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="pukul" name="pukul" value="<?php echo $pukul ?>">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="tanggal" class="col-sm-2 col-form-label">Tanggal</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="tanggal" name="tanggal" value="<?php echo $tanggal ?>">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="kode" class="col-sm-2 col-form-label">Kode</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="kode" name="kode" value="<?php echo $kode ?>">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="formFile" class="form-label">Upload Gambar Produk</label>
-                        <input class="form-control" type="file" id="formFile">
+                            <input class="form-control" type="file" id="formFile">
                     </div>
-            <div class="col-12">
-                <input type="submit" name="simpan" value="Simpan Data" class="btn btn-primary" />
+                        <div class="col-12">
+                            <input type="submit" name="simpan" value="Simpan Data" class="btn btn-primary" />
+                        </div>
+                </form>
             </div>
-            </form>
         </div>
-    </div>
     </div>
 
     </div>
@@ -105,7 +134,7 @@
         </div>
     </div>
 
-    
+
 </body>
 
 </html>
