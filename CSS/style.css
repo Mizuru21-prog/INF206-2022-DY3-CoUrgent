@@ -144,3 +144,10 @@ h3{
     display: inline-block;
     float: none;
 }
+.mx-auto {
+    width: 800px
+}
+
+.card {
+    margin-top: 10px;
+}
