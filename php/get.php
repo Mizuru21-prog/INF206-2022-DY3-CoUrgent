@@ -4,21 +4,21 @@
  
 		switch ($page) {
 			case 'Home':
-				include "/CoUrgent/Home.php";
+				include "buyerHome.php";
 			case 'Produk':
-				include "/CoUrgent/Produk.php";
+				include "buyerProduk.php";
 				break;
 			case 'ProdukB':
-				include "/CoUrgent/Produk.php";
+				include "buyerProduk.php";
 				break;
 			case 'Upload':
-				include "/CoUrgent/Upload.php";
+				include "adminUpload.php";
 				break;
 			case 'Keranjang':
-				include "/CoUrgent/Keranjang.php";
+				include "buyerKeranjang.php";
 				break;
 			case 'Log out':
-				include "/CoUrgent/index.php";
+				include "landing.php";
 				break;			
 			default:
 				echo "<center><h3>Maaf. Halaman tidak di temukan !</h3></center>";
@@ -26,4 +26,3 @@
 		}
 	
     }
-?>
