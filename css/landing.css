@@ -1,0 +1,103 @@
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'century', sans-serif;
+	/*background: #CFFFDC;*/
+}
+
+.navbar{
+	background: #B6FFCE;
+	height: 85px;
+	display: flex;
+	padding: 0 10%;
+	align-items: center;  /*// membuat tulisan nya di tengah (atas, bawah)*/
+	justify-content: space-between; /*// membuat courgent dan covid19 pisah*/
+	box-shadow: 0 2px 4px 0 rgba(1,1,1,0.2);
+}
+
+.nav-menu-left{
+	display: flex;
+	gap: 10px;
+}
+
+.nav-menu-left > h1{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+.nav-menu-right{
+	display: flex;
+	gap: 30px;
+}
+
+.nav-menu-right a{
+	text-decoration: none;
+	color: black;
+}
+
+.button {
+  padding: 0px;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  border: none;
+  box-shadow: 0 2px rgb(42, 73, 228);
+  outline: none;
+  background-color: transparent;
+}
+
+.button:hover {
+	background-color: skyblue;
+	border-radius: 5px;
+	padding: 1px;
+	margin: -2px -1px;
+}
+
+.hero-container{
+	display: flex;
+	height: 470px;
+	padding: 0 10%;
+}
+
+.hero-container > div{
+	flex: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.hero-container h1{
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+.hero-container button{
+	font-size: 20px;
+}
+
+.hero-container > img{
+	flex: 50%;
+	height: 323px;
+	align-self: center; /*Gambar ke tengah*/
+}
+
+footer{
+	background-color: #B6FFCE;
+	height: 77px;
+	text-align: center;
+}
+
+footer > h3{
+	padding-top: 27px;
+}
